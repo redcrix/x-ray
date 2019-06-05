@@ -1,0 +1,108 @@
+
+
+<div class="header">
+    <h2 class="title">X-Ray Scanner</h2>
+</div>
+<div class="show-results">
+
+<form  class="contact_form" method="post" action="">
+
+<h2 class="result">Results from X-RAY Image</h2>
+        <table class="customTable">
+                <tr>
+                  <th>Infection Found</th>
+                  <th>Lung Condition</th>
+                  <th>Likely Infected</th>
+                  <th>Disease Name</th>
+                  <th>Further Procedures</th>
+                </tr>
+                <tr>
+                  <td>{{ infound }}</td>
+                  <td>{{ lcondition }}</td>
+                  <td>50</td>
+                  <td>LoremIpsum</td>
+                  <td>50</td>
+                </tr>
+
+        </table>
+
+</div>
+
+<h4 class="GiveCall">
+    Leave feedbacks
+</h4>
+
+<p class="gray">We will use it in improving the algorithm - Machine Learning Expert (REDCRIX)</p>
+<center>
+
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    <div class="btn">
+      <button class="shop-redcart" >SEND</button>
+    </div>
+    </center>
+
+</form>
+
+
+
+
+
+  <style>
+
+  h4.GiveCall {
+    background: #c00;
+    padding: 20px;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-size: 18px;
+}
+form.contact_form {
+    text-align: center;
+}
+
+input.input-item {
+    width: 80%;
+    margin: 6px;
+    height: 38px;
+    padding: 11px;
+}
+
+table.customTable {
+    width: 100%;
+    margin-top: 40px;
+}
+
+th {
+    background: bisque;
+    font-family: monospace;
+    padding: 13px;
+    font-size: 18px;
+}
+
+td {
+    background: white;
+    padding: 20px;
+    border-bottom: 5px solid lightgray;
+    text-align: center;
+}
+
+h2.result {
+    font-family: inherit;
+}
+p.gray {
+    color: gray;
+    text-align: center;
+    font-family: inherit;
+}
+
+h2.title {
+    background: black;
+    padding: 20px;
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+}
+</style>
