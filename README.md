@@ -15,9 +15,13 @@ Note:
 If their is an problem in running the install.py file then use the manual commands which are writen below.
 
 pip install tensorflow
+
 pip install keras
+
 pip install django
+
 pip install h5py
+
 pip install numpy
 
 
