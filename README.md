@@ -2,7 +2,7 @@
 
 Dataset is downloaded from: https://nihcc.app.box.com/v/ChestXray-NIHCC
 
-This project is for the prediction of chest infection by visulization of the chest x-ray images on the basis of 15 different classifications which are given by the NIH Clinical Center.
+This project is for the prediction of chest infection by visualisation of the chest x-ray images on the basis of 15 different classifications which are given by the NIH Clinical Center.
 
 It uses keras for the CNN and as a backend tensorflow for creating the x-ray prediction model. 
 Django is used for creating the web interface of this predicting model and deployment on the web.
