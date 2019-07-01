@@ -27,5 +27,5 @@ pip install numpy
 
 It is not necessary to create virtual environment for running this webapp.
 
-lskadgvj
+
 >>>>>>>>>>for mac and linux use python3 and pip3 in place of python and pip.
