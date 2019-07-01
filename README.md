@@ -1,5 +1,13 @@
-# x-ray
-This project is for the prediction of chest infection by visulization of the chest x-ray images.
+# x-ray image classification
+
+Dataset is downloaded from: https://nihcc.app.box.com/v/ChestXray-NIHCC
+
+This project is for the prediction of chest infection by visulization of the chest x-ray images on the basis of 15 different classifications which are given by the NIH Clinical Center.
+
+It uses keras for the CNN and as a backend tensorflow for creating the x-ray prediction model. 
+Django is used for creating the web interface of this predicting model and deployment on the web.
+
+Output comes by the processing of image with the ".h5" file of the model in 15 different classifications if infection is present in image.
 
 Steps for running this project:
 1. clone the repository by command <git clone https://github.com/redcrix/x-ray.git>
@@ -26,6 +34,7 @@ pip install numpy
 
 
 It is not necessary to create virtual environment for running this webapp.
+
 
 
 >>>>>>>>>>for mac and linux use python3 and pip3 in place of python and pip.
